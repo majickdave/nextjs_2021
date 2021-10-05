@@ -37,6 +37,10 @@
   padding-top: 1px;
 }
 
+.padding10px {
+  padding-top: 10px;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -49,4 +53,18 @@
 
 .lightText {
   color: #666;
+}
+
+.noHover {
+  text-decoration: none;
+}
+
+.button {
+  /*Change the width as much as you like, but make sure 
+  margin-left and margin-right + width = 100%*/
+  width:100%;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
