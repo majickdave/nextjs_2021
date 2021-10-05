@@ -18,6 +18,7 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <img>{postData.coverImage}</img>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
