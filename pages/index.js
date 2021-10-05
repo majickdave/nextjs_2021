@@ -19,6 +19,9 @@ export default function Home({ allPostsData }) {
           solve business problems, and uses Python, Jupyter Notebooks, and Google Cloud to 
           build data analysis reports, data visualizations, and machine learning applications.
         </p>
+        <Link href={`https://drive.google.com/uc?export=download&id=1PNwaTpvGsN0kd1g3phRvbO4oNbAuboRN`}>
+          <a>Download Resume</a>
+        </Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
